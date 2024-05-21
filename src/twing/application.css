@@ -1,0 +1,84 @@
+.button{
+    -fx-background-color: #111B42;
+    -fx-border: none; 
+    -fx-color: white; 
+    -fx-font-family: Poppins Regular;
+    -fx-text-fill: white;
+}
+
+.label{
+    -fx-font-family: Poppins Regular;
+}
+
+#exit{
+    -fx-background-color: #FF0000;
+    -fx-border: none; 
+    -fx-color: white; 
+}
+
+#minimize{
+    -fx-background-color: #111B42;
+    -fx-border: none; 
+    -fx-color: white; 
+}
+
+.tField{
+    -fx-font-family: Poppins Regular;
+}
+
+.nField{
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-font-family: Poppins Regular;
+}
+
+#bgcolor{
+    -fx-color: white;
+}
+
+#loginB{
+    -fx-background-color: #111B42;
+    -fx-border: none; 
+    -fx-color: white; 
+}
+
+.choice-box {
+    -fx-background-color: white;
+    -fx-border-color: lightgray;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+.choice-box .arrow {
+    -fx-background-color: black;
+}
+
+.choice-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.choice-box:hover {
+    -fx-border-color: darkgray;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: lightgray;
+}
+
+#signinB{
+    -fx-background-color: #FFFFFF;
+    -fx-border: none; 
+    -fx-text-fill: black; 
+}
+
+.menuButtonClass{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+}
