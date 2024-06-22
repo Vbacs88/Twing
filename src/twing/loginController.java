@@ -77,10 +77,10 @@ public class loginController {
         String passwordIn = psh.hashPassword(fxpasswordField.getText());
         System.out.println("Input Text: " + usernameIn);
         //---
-        Parent root = FXMLLoader.load(getClass().getResource("/adminPanels/Admindb.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/adminPanels/AdminMain.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        stage.setX(centerStageX(1361));
-        stage.setY(centerStageY(901));
+        stage.setX(centerStageX(1348));
+        stage.setY(centerStageY(907));
         //---
         scene = new Scene(root, Color.TRANSPARENT);
         stage.setScene(scene);
