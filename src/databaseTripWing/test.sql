@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 21, 2024 at 02:56 PM
+-- Generation Time: Jun 22, 2024 at 04:20 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -59,9 +59,10 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`u_id`, `u_fname`, `u_lname`, `u_email`, `u_usn`, `u_pass`, `u_type`, `u_status`, `auth_pass`) VALUES
-(1, '1', '1', '1', '1', 'fa585d89c851dd338a70dcf535aa2a92fee7836dd6aff12265', 'Admin', 'Active', 'None'),
-(22, 'Mark Ken', 'Purisima', 'kenken@gmail.com', 'Keni', '005e408f4905098f877eab7cf97ce9f0bc706994aa759eb4aa', 'Admin', 'Pending', 'None'),
-(23, 'John', 'Dela Cuesta', 'aowdoadw@gmail.com', 'jm90', '005e408f4905098f877eab7cf97ce9f0bc706994aa759eb4aa', 'Admin', 'Pending', 'None');
+(1, 'Vince Michael', 'Bacarisas', 'admin@gmail.com', 'vmb', 'fa585d89c851dd338a70dcf535aa2a92fee7836dd6aff12265', 'Admin', 'Active', 'None'),
+(2, 'Ken Mark', 'Purisima', 'kenken@gmail.com', 'Keni', '005e408f4905098f877eab7cf97ce9f0bc706994aa759eb4aa', 'Admin', 'Active', 'None'),
+(23, 'John', 'Dela Cuesta', 'aowdoadw@gmail.com', 'jm90', '005e408f4905098f877eab7cf97ce9f0bc706994aa759eb4aa', 'Admin', 'Active', 'None'),
+(24, 'Mark Ken', 'Purisima', 'awdawd213', 'kenken', 'fa585d89c851dd338a70dcf535aa2a92fee7836dd6aff12265', 'Admin', 'Active', 'None');
 
 --
 -- Indexes for dumped tables
@@ -93,7 +94,7 @@ ALTER TABLE `flights`
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `u_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `u_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
